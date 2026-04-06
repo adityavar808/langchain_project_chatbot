@@ -13,8 +13,7 @@ load_dotenv()
 
 os.environ["USER_AGENT"] = "my-rag-chatbot/1.0"
 
-# loader = WebBaseLoader("https://www.linkedin.com/in/adityaavarshney/")
-loader = PyPDFLoader("resume.pdf")
+loader = WebBaseLoader("https://en.wikipedia.org/wiki/India")
 docs = loader.load()
 
 chunks = RecursiveCharacterTextSplitter(
