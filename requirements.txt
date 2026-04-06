@@ -1,0 +1,11 @@
+flask
+langchain
+python-dotenv
+langchain_community
+PyPDF
+beautifulsoup4
+youtube-transcript-api
+langchain-text-splitters
+langchain-huggingface 
+sentence-transformers
+chromadb

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A.D.I.</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&family=Courier+Prime:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+  </head>
+  <body>
+    <div class="container">
+      <h1>A.D.I.</h1>
+      <p class="subtitle">Your AI Assistant</p>
+
+      <div class="chat-box" id="chatBox"></div>
+
+      <form class="input-box">
+        <input type="text" placeholder="Ask anything..." />
+        <button>Send</button>
+      </form>
+    </div>
+  </body>
+</html>
